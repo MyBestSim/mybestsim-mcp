@@ -6,7 +6,7 @@
 
 Compare prepaid travel eSIM plans by destination, data allowance and trip length, and plan eSIMs for multi-country trips, from any AI assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io/).
 
-[MyBestSim](https://mybestsim.com/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mybestsim-mcp) is an independent comparator of prepaid travel eSIM plans. This hosted MCP server gives an assistant read-only access to the same catalog that powers the comparison pages on mybestsim.com.
+[MyBestSim](https://mybestsim.com/?utm_source=github&utm_medium=mcp-directory&utm_campaign=mybestsim-mcp) is an independent comparator of prepaid travel eSIM plans. This hosted MCP server gives an assistant read-only access to the plans listed on the comparison pages of mybestsim.com.
 
 | | |
 | --- | --- |
@@ -147,9 +147,13 @@ When the trip length or the data need is missing, the server assumes a 7-day tri
 - Unlimited plans are shown as "Unlimited". Check the provider's fair use terms before buying.
 - The endpoint is rate limited to protect the service.
 
-## Affiliation
+## Affiliation and ranking
 
-MyBestSim earns a commission when a traveler buys through its links. No paid placement influences the results.
+MyBestSim earns a commission when a traveler buys through its links.
+
+Results are the plans listed on the MyBestSim comparison page that each link opens. The server ranks them only by the request (price, value for the data need, data or validity): no paid placement changes their order.
+
+Which plans a page lists follows the comparator's rules: near-identical plans from one provider may be shown once, and when plans from different providers are comparable, the page may keep only the one from a provider that earns MyBestSim more, sometimes at a higher price. A plan that a provider pays to feature is never removed by these rules, and it gets no better rank from the server.
 
 ## Documentation and privacy
 
